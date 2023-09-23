@@ -4,10 +4,18 @@
 
   &__xl {
     font-size: 3.2rem;
+
+    @media (min-width: $layout-breakpoint-small) {
+      font-size: 4.6rem;
+    }
   }
 
   &__lg {
     font-size: 2.8rem;
+
+    @media (min-width: $layout-breakpoint-small) {
+      font-size: 3.6rem;
+    }
   }
 
   &__m {

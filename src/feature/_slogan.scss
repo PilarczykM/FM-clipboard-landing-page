@@ -1,3 +1,8 @@
 .slogan {
   text-align: center;
+
+  @media (min-width: $layout-breakpoint-small) {
+    max-width: 72rem;
+    margin: 0 auto;
+  }
 }
