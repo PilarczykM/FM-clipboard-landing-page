@@ -1,0 +1,16 @@
+{
+  "name": "clipboard-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass src/style.scss -o dist",
+    "css:watch": "npm run css && node-sass src/style.scss -w -o dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

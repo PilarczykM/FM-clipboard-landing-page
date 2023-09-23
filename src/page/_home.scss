@@ -1,0 +1,133 @@
+main {
+  padding: 0 3rem;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.image-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -999;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 36.8rem;
+    width: 37.5rem;
+    content: "";
+    background-image: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0) 95%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+}
+
+.header {
+  padding-top: 12rem;
+  text-align: center;
+
+  .heading {
+    padding-top: 7rem;
+  }
+
+  .button-wrapper {
+    padding-top: 5rem;
+  }
+}
+
+.track-your-snippets {
+  padding-top: 17rem;
+  text-align: center;
+
+  .features {
+    padding-top: 7rem;
+    &__image-wrapper {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    &__list {
+      padding-top: 6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 6rem;
+
+      .paragraph {
+        padding-top: 2rem;
+      }
+    }
+  }
+}
+
+.access-clipboard {
+  padding-top: 20rem;
+
+  &__image-wrapper {
+    padding-top: 7rem;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.supercharge-your-workflow {
+  padding-top: 14rem;
+  text-align: center;
+
+  .workflow-features {
+    margin-top: 9.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+
+    .workflow-feature .heading {
+      padding-top: 5rem;
+    }
+  }
+}
+
+.brands {
+  padding-top: 14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.5rem;
+
+  &__google {
+    max-width: 14rem;
+  }
+
+  &__ibm {
+    max-width: 12rem;
+  }
+
+  &__microsoft {
+      max-width: 14rem;
+  }
+
+  &__hp {
+    max-width: 12rem;
+  }
+
+  &__vg {
+    max-width: 11rem;
+  }
+}
+
+.download {
+  padding: 18rem 0 16rem;
+
+  .button-wrapper {
+    padding-top: 6rem;
+  }
+}

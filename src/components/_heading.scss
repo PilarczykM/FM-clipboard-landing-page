@@ -1,0 +1,16 @@
+.heading {
+  color: $dark-grayish-blue;
+  font-weight: $bold-weight;
+
+  &__xl {
+    font-size: 3.2rem;
+  }
+
+  &__lg {
+    font-size: 2.8rem;
+  }
+
+  &__m {
+    font-size: 2.4rem;
+  }
+}
