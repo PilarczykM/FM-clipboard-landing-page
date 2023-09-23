@@ -61,6 +61,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
     &__image-wrapper {
       max-width: 57rem;
       img {
@@ -90,12 +91,12 @@ main {
 
     @media (min-width: $layout-breakpoint-large) {
       flex-direction: row;
-      align-items: center;
+      justify-content: center;
 
       &__image-wrapper {
         max-width: 78rem;
         width: 100%;
-        margin-left: -6rem;
+        margin-left: -27rem;
       }
     }
   }
